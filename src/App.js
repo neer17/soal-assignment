@@ -5,6 +5,8 @@ import { Provider } from 'react-redux'
 import Sidebar from './components/sidebar/Sidebar'
 import UsersList from './screens/users-list/UsersList'
 import UserDetails from './screens/users-details/UserDetails'
+import Login from './screens/login/Login'
+
 import store from './store/store'
 
 import styles from './App.module.css'
@@ -23,6 +25,7 @@ export default class App extends Component {
               <Switch>
                 <Route exact path="/" component={UsersList} />
                 <Route exact path="/user-details" component={UserDetails} />
+                <Route exact path="/login" component={Login} />
               </Switch>
             </div>
           </div>

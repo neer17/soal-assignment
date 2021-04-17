@@ -21,14 +21,14 @@ export default (state = initialState, action) => {
       return {
         ...state,
         isLoading: false,
-        userDetails: action.payload.result.data,
+        userDetails: action.payload
       }
     }
     case types.LOGIN_FAILURE:
       return {
         ...state,
         isLoading: false,
-        error: action.payload.result || defaultErrorMessage,
+        error: action.payload || defaultErrorMessage,
       }
     default: {
       return state
