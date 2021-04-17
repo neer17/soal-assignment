@@ -1,0 +1,141 @@
+.root {
+  position: relative;
+  font-size: 66px;
+}
+
+/* User Details Section */
+.user_details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  padding-bottom: 200px;
+  background-color: rgb(6, 6, 71);
+  font-size: 150px;
+  color: white;
+  z-index: 0;
+}
+.user_details > span {
+  height: fit-content;
+  line-height: 1;
+  font-weight: 700;
+}
+.user_details > div {
+  height: fit-content;
+}
+.user_img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #1193fd;
+  padding: 5px;
+  border-radius: 50%;
+}
+.text_container {
+  font-size: 24px;
+}
+.details_graph {
+  font-size: 24px;
+}
+.details_graph > img {
+  width: 50px;
+  height: 50px;
+}
+
+/* stats section */
+.stats_section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.attendance_card {
+  /* position: absolute; */
+  background-color: #fafafa;
+  margin-top: -100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 90%;
+  height: 400px;
+  padding: 20px;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  z-index: 100;
+}
+
+.bottom_cards {
+  display: flex;
+  padding: 0 20px;
+  margin-bottom: 100px;
+  font-size: 16px;
+}
+.code_card {
+  width: 60%;
+  padding: 20px;
+  background-color: #fafafa;
+  margin-left: auto;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.progress_cards_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  margin-right: 20px;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.progress_cards_container > div:first-child {
+  color: #2c2c2c;
+  font-weight: 600;
+  font-size: 18px;
+}
+.progress_card {
+  width: 95%;
+  padding: 10px;
+}
+.course_progress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  color: #9e9d9d;
+}
+.course_name {
+  font-size: 16px;
+  font-weight: 700;
+}
+.progress_percentage {
+  text-align: end;
+  color: #9e9d9d;
+}
+.progress {
+  width: 100%;
+  height: 2px;
+  background-color: #eaeaea;
+}
+.filler {
+  width: 80%;
+  height: 100%;
+  background-color: red;
+}
+.filler_2 {
+  width: 70%;
+  height: 100%;
+  background-color: rgb(0, 255, 0);
+}
+.filler_3 {
+  width: 60%;
+  height: 100%;
+  background-color: rgb(0, 247, 255);
+}
+.filler_4 {
+  width: 90%;
+  height: 100%;
+  background-color: rgb(255, 230, 0);
+}
