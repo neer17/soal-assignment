@@ -28,6 +28,7 @@ class Sidebar extends Component {
     }
     if (prevProps.userDetails && !this.props.userDetails) {
       this.setState({
+        userDetails: null,
         selectedTab: 'Users',
       })
     }
