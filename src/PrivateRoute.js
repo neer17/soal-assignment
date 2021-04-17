@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux'
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
   const { userDetails } = useSelector(state => state.userDetails)
+  console.info(userDetails)
   return (
     <Route
       {...rest}

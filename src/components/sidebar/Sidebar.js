@@ -4,7 +4,12 @@ import { withRouter } from 'react-router-dom'
 
 import { IconContext } from 'react-icons'
 import { RiDashboardFill } from 'react-icons/ri'
-import { AiTwotoneCalendar } from 'react-icons/ai'
+import {
+  AiTwotoneCalendar,
+  AiOutlineMail,
+  AiFillLinkedin,
+  AiOutlineGithub,
+} from 'react-icons/ai'
 import { FiUsers } from 'react-icons/fi'
 import { BsListTask } from 'react-icons/bs'
 import { CgLogOut } from 'react-icons/cg'
@@ -55,9 +60,18 @@ class Sidebar extends Component {
                 />
               </div>
               <div className={styles.username}>John Doe</div>
-              <div className={styles.user_id}>
-                <span>User Id: </span>
-                <span>a1189876</span>
+              <div className={styles.social_media_container}>
+                <IconContext.Provider value={{ size: 25 }}>
+                  <AiOutlineMail />
+                </IconContext.Provider>
+
+                <IconContext.Provider value={{ size: 25 }}>
+                  <AiFillLinkedin />
+                </IconContext.Provider>
+
+                <IconContext.Provider value={{ size: 25 }}>
+                  <AiOutlineGithub />
+                </IconContext.Provider>
               </div>
             </>
           ) : (

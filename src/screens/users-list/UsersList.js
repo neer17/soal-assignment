@@ -20,8 +20,6 @@ export default class UsersList extends Component {
   getRandomImage = () => {
     const images = [image1, image2, image3, image4, image5, image6, image7]
     const randomNumber = Math.round(Math.random() * 6)
-
-    console.info(randomNumber)
     return images[randomNumber]
   }
   render() {

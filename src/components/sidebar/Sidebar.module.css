@@ -23,6 +23,12 @@
   font-size: 24px;
   font-weight: 700;
 }
+.social_media_container {
+  display: flex;
+}
+.social_media_container > svg {
+  margin-right: 10px;
+}
 .user_id {
   font-size: 18px;
   font-weight: 500;
