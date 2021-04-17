@@ -75,3 +75,6 @@
 .end_section > div > svg {
   margin-right: 8px;
 }
+.logout {
+  cursor: pointer;
+}

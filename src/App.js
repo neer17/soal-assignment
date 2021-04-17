@@ -6,6 +6,7 @@ import Sidebar from './components/sidebar/Sidebar'
 import UsersList from './screens/users-list/UsersList'
 import UserDetails from './screens/users-details/UserDetails'
 import Login from './screens/login/Login'
+import PrivateRoute from './PrivateRoute'
 
 import store from './store/store'
 
@@ -24,7 +25,11 @@ export default class App extends Component {
             <div className={styles.rightSide}>
               <Switch>
                 <Route exact path="/" component={UsersList} />
-                <Route exact path="/user-details" component={UserDetails} />
+                <PrivateRoute
+                  exact
+                  path="/user-details"
+                  component={UserDetails}
+                />
                 <Route exact path="/login" component={Login} />
               </Switch>
             </div>

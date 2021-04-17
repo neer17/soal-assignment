@@ -1,6 +1,8 @@
 .root {
   position: relative;
   font-size: 66px;
+  height: 100vh;
+  overflow-y: auto;
 }
 
 /* User Details Section */

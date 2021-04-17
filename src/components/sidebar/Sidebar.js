@@ -9,6 +9,8 @@ import { FiUsers } from 'react-icons/fi'
 import { BsListTask } from 'react-icons/bs'
 import { CgLogOut } from 'react-icons/cg'
 
+import * as UserDetailsActions from './../../store/actions/userDetails'
+
 import styles from './Sidebar.module.css'
 
 class Sidebar extends Component {
@@ -21,6 +23,12 @@ class Sidebar extends Component {
     if (!prevProps.userDetails && this.props.userDetails) {
       this.setState({
         userDetails: this.props.userDetails,
+        selectedTab: 'Dashboard',
+      })
+    }
+    if (prevProps.userDetails && !this.props.userDetails) {
+      this.setState({
+        selectedTab: 'Users',
       })
     }
   }
@@ -28,6 +36,9 @@ class Sidebar extends Component {
     this.props.history.push('/login')
   }
 
+  handleLogout = () => {
+    this.props.successLogin(null)
+  }
   render() {
     const { selectedTab, userDetails } = this.state
 
@@ -42,7 +53,7 @@ class Sidebar extends Component {
                   alt="User Image"
                 />
               </div>
-              <div className={styles.username}>Neeraj</div>
+              <div className={styles.username}>John Doe</div>
               <div className={styles.user_id}>
                 <span>User Id: </span>
                 <span>a1189876</span>
@@ -56,7 +67,16 @@ class Sidebar extends Component {
         </section>
 
         <section className={styles.middle_section}>
-          <div>
+          <div
+            style={
+              selectedTab === 'Dashboard'
+                ? {
+                    boxShadow: '9px 17px 15px -5px rgba(119,119,119,0.75)',
+                    backgroundColor: 'white',
+                  }
+                : {}
+            }
+          >
             <IconContext.Provider value={{ color: 'grey' }}>
               <RiDashboardFill />
             </IconContext.Provider>
@@ -97,7 +117,9 @@ class Sidebar extends Component {
               <IconContext.Provider value={{ color: 'grey' }}>
                 <CgLogOut />
               </IconContext.Provider>
-              <div>Logout</div>
+              <div className={styles.logout} onClick={this.handleLogout}>
+                Logout
+              </div>
             </div>
           ) : null}
         </section>
@@ -111,4 +133,8 @@ const mapPropsToState = state => {
     userDetails: state.userDetails.userDetails,
   }
 }
-export default withRouter(connect(mapPropsToState, null)(Sidebar))
+
+const mapDispatchToProps = {
+  successLogin: UserDetailsActions.successLogin,
+}
+export default withRouter(connect(mapPropsToState, mapDispatchToProps)(Sidebar))
