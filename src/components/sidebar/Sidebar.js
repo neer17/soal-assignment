@@ -92,12 +92,14 @@ class Sidebar extends Component {
         </section>
 
         <section className={styles.end_section}>
-          <div>
-            <IconContext.Provider value={{ color: 'grey' }}>
-              <CgLogOut />
-            </IconContext.Provider>
-            <div>Logout</div>
-          </div>
+          {userDetails ? (
+            <div>
+              <IconContext.Provider value={{ color: 'grey' }}>
+                <CgLogOut />
+              </IconContext.Provider>
+              <div>Logout</div>
+            </div>
+          ) : null}
         </section>
       </div>
     )

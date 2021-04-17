@@ -1,6 +1,6 @@
 .root {
   display: flex;
-  width: 100vw;
+  /* width: vw; */
   height: 100vh;
 }
 .rightSide {

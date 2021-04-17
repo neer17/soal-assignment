@@ -2,10 +2,9 @@
   display: flex;
   flex-direction: column;
   /* justify-content: space-around; */
-  padding-left: 50px;
+  padding: 0 30px 0 20px;
   background-color: #f8f6f4;
-  width: 500px;
-  height: 100%;
+  width: 20%;
 }
 
 .upper_section {
@@ -32,10 +31,10 @@
   color: rgb(39, 228, 39);
 }
 .login_btn {
-  width: 60%;
+  text-align: center;
   padding: 10px;
-  border: 1px solid #28d1fc;
-  color: #28d1fc;
+  border: 1px solid #0556be;
+  color: #0556be;
   font-weight: 600;
   cursor: pointer;
 }
@@ -52,7 +51,6 @@
 .middle_section > div {
   display: flex;
   align-items: center;
-  width: 50%;
   padding: 20px 10px;
   border-radius: 5px;
 }

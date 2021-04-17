@@ -1,0 +1,102 @@
+{
+  "userList": [
+    {
+      "coverURL": "https://via.placeholder.com/340x120/FFB6C1/000000",
+      "imageURL": "https://bootdey.com/img/Content/avatar/avatar7.png",
+      "name": "John Doe",
+      "profession": "Full Stack Developer",
+      "Address": "Jaipur Rajasthan"
+    },
+    {
+      "coverURL": "https://via.placeholder.com/340x120/87CEFA/000000",
+      "imageURL": "https://bootdey.com/img/Content/avatar/avatar1.png",
+      "name": "John Doe",
+      "profession": "Full Stack Developer",
+      "Address": "Jaipur Rajasthan"
+    },
+    {
+      "coverURL": "https://via.placeholder.com/340x120/20B2AA/000000",
+      "imageURL": "https://bootdey.com/img/Content/avatar/avatar2.png",
+      "name": "John Doe",
+      "profession": "Full Stack Developer",
+      "Address": "Jaipur Rajasthan"
+    },
+    {
+      "coverURL": "https://via.placeholder.com/340x120/FFA07A/000000",
+      "imageURL": "https://bootdey.com/img/Content/avatar/avatar3.png",
+      "name": "John Doe",
+      "profession": "Full Stack Developer",
+      "Address": "Jaipur Rajasthan"
+    },
+    {
+      "coverURL": "https://via.placeholder.com/340x120/7B68EE/000000",
+      "imageURL": "https://bootdey.com/img/Content/avatar/avatar4.png",
+      "name": "John Doe",
+      "profession": "Full Stack Developer",
+      "Address": "Jaipur Rajasthan"
+    },
+    {
+      "coverURL": "https://via.placeholder.com/340x120/BA55D3/000000",
+      "imageURL": "https://bootdey.com/img/Content/avatar/avatar5.png",
+      "name": "John Doe",
+      "profession": "Full Stack Developer",
+      "Address": "Jaipur Rajasthan"
+    },
+    {
+      "coverURL": "https://via.placeholder.com/340x120/FF4500/000000",
+      "imageURL": "https://bootdey.com/img/Content/avatar/avatar6.png",
+      "name": "John Doe",
+      "profession": "Full Stack Developer",
+      "Address": "Jaipur Rajasthan"
+    },
+    {
+      "coverURL": "https://via.placeholder.com/340x120/191970/000000",
+      "imageURL": "https://bootdey.com/img/Content/avatar/avatar1.png",
+      "name": "John Doe",
+      "profession": "Full Stack Developer",
+      "Address": "Jaipur Rajasthan"
+    },
+    {
+      "coverURL": "https://via.placeholder.com/340x120/DDA0DD/000000",
+      "imageURL": "https://bootdey.com/img/Content/avatar/avatar7.png",
+      "name": "John Doe",
+      "profession": "Full Stack Developer",
+      "Address": "Jaipur Rajasthan"
+    },
+    {
+      "coverURL": "https://via.placeholder.com/340x120/DB7093/000000",
+      "imageURL": "https://bootdey.com/img/Content/avatar/avatar2.png",
+      "name": "John Doe",
+      "profession": "Full Stack Developer",
+      "Address": "Jaipur Rajasthan"
+    },
+    {
+      "coverURL": "https://via.placeholder.com/340x120/FFB6C1/000000",
+      "imageURL": "https://bootdey.com/img/Content/avatar/avatar7.png",
+      "name": "John Doe",
+      "profession": "Full Stack Developer",
+      "Address": "Jaipur Rajasthan"
+    },
+    {
+      "coverURL": "https://via.placeholder.com/340x120/FFB6C1/000000",
+      "imageURL": "https://bootdey.com/img/Content/avatar/avatar7.png",
+      "name": "John Doe",
+      "profession": "Full Stack Developer",
+      "Address": "Jaipur Rajasthan"
+    },
+    {
+      "coverURL": "https://via.placeholder.com/340x120/191970/000000",
+      "imageURL": "https://bootdey.com/img/Content/avatar/avatar2.png",
+      "name": "John Doe",
+      "profession": "Full Stack Developer",
+      "Address": "Jaipur Rajasthan"
+    },
+    {
+      "coverURL": "https://via.placeholder.com/340x120/DB7093/000000",
+      "imageURL": "https://bootdey.com/img/Content/avatar/avatar1.png",
+      "name": "John Doe",
+      "profession": "Full Stack Developer",
+      "Address": "Jaipur Rajasthan"
+    }
+  ]
+}
