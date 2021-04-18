@@ -20,8 +20,8 @@ import styles from './Sidebar.module.css'
 
 class Sidebar extends Component {
   state = {
-    userDetails: null,
-    selectedTab: 'Users',
+    userDetails: this.props.userDetails,
+    selectedTab: this.props.userDetails ? 'Dashboard' : 'Users',
   }
 
   componentDidUpdate(prevProps, prevState) {
