@@ -13,7 +13,7 @@ import store, { persistor } from './store/store'
 
 import styles from './App.module.css'
 
-import logo from './logo.svg'
+// import logo from './logo.svg'
 // import './App.css'
 
 export default class App extends Component {
