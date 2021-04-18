@@ -44,9 +44,10 @@ class Sidebar extends Component {
 
   handleLogout = () => {
     this.props.successLogin(null)
+    this.props.history.replace('/')
   }
   render() {
-    const { selectedTab, userDetails } = this.state
+  const { selectedTab, userDetails } = this.state
 
     return (
       <div className={styles.root}>
@@ -56,7 +57,7 @@ class Sidebar extends Component {
               <div className={styles.user_image}>
                 <img
                   src="https://bootdey.com/img/Content/avatar/avatar1.png"
-                  alt="User Image"
+                  alt="User Icon"
                 />
               </div>
               <div className={styles.username}>John Doe</div>
